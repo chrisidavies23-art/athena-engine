@@ -1,0 +1,4 @@
+{
+  "name": "athena-codespaces-engine",
+  "dependencies": { "express": "*", "puppeteer": "*" }
+}
