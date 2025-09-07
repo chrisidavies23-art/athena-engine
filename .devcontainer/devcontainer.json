@@ -1,0 +1,12 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "packages": "libnss3,libatk1.0-0,libatk-bridge2.0-0,libcups2,libgtk-3-0,libxkbcommon0,libxshmfence1,libxss1,libasound2"
+    }
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "npm install"
+}
